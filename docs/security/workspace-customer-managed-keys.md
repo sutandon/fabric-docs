@@ -92,7 +92,7 @@ Once you complete these steps, your workspace is encrypted with a customer-manag
 
 ## Revoke access
 
-To revoke access to data in a workspace that's encrypted using a customer-managed key, revoke the key in the Azure Key Vault. After 30 minutes from the time the key is revoked, read and write calls to the workspace fail.
+To revoke access to data in a workspace that's encrypted using a customer-managed key, revoke the key in the Azure Key Vault. Within 60 minutes from the time the key is revoked, read and write calls to the workspace fail.
 
 You can revoke a customer-managed encryption key by changing the access policy, by changing the permissions on the key vault, or by deleting the key.
 
