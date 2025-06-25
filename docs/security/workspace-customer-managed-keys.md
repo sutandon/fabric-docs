@@ -138,6 +138,8 @@ Before you configure your Fabric workspace with a customer-managed key, consider
 
 * CMK is supported on all [F SKUs](../enterprise/licenses.md).
 
+* CMK is available only using the Fabric portal.
+
 * CMK is not supported when Azure Key Vault firewall setting is enabled.
 
 * CMK can be enabled and disabled for the workspace while the tenant level encryption setting is on. Once the tenant setting is turned off, you can no longer enable CMK for workspaces in that tenant or disable CMK for workspaces that already have CMK turned on in that tenant. Data in workspaces that enabled CMK before the tenant setting was turned off will remain encrypted with the customer managed key. Keep the associated key active to be able to unwrap data in that workspace. 
